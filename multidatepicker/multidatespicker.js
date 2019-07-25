@@ -88,7 +88,8 @@ function loadControl(month, year) {
     // creating the date cells here
     let date = 1;
 
-    selectedDates.push((month + 1).toString() + '/' + date.toString() + '/' + year.toString());
+    // add the selected dates here to preselect
+    //selectedDates.push((month + 1).toString() + '/' + date.toString() + '/' + year.toString());
 
     // there will be maximum 6 rows for any month
     for (let rowIterator = 0; rowIterator < 6; rowIterator++) {
